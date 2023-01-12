@@ -1,0 +1,41 @@
+#include<stdio.h>
+#include<sys/ioctl.h>
+#include<termios.h>
+#include<LB2.h>
+int mt_clrscr(void){ 
+    printf("\E[0;0f");    
+    printf("\E[2j");
+    return 0;
+}
+int mt_gotoXY(int x, int y){ 
+    printf("\E[%d;%dH", (x),(y));
+    return 0;
+}   
+int mt_getscreensize(int *rows, int *cols){ 
+    struct winsize ws;    
+    if(!ioctl(1, TIOCGWINSZ, &ws)){
+        *rows = ws.ws_row; 
+        *cols = ws.ws_col;
+    }else{
+        fprintf(stderr,"Ошибка получения размера экранa.\n");
+    }
+    return 0;
+}
+typedef enum{
+    RED   = 31,
+    GREEN = 32,
+    BLUE  = 34, 
+}fgcolor;
+int setfgcolor(fgcolor fg){ 
+    printf("\E[%d", (fg));
+    return 0;
+}   
+typedef enum{
+    red   = 41, 
+    greeen = 42, 
+    blue  = 44, 
+}bgcolor;
+int setbgcolor(bgcolor bg){ 
+    printf("\E[%d", (bg));
+    return 0;
+}   
