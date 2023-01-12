@@ -23,15 +23,7 @@ void FillInc(int N){
   {
     A[i]=i;
     printf("%d ",A[i]); 
-    /*if(A[i] < A[i+1])
-    {   
-        count = count + 1;
-    }*/
   } 
-   /* printf("\n");
-    printf("Count: ");
-    printf("%d ", count);
-  */
 }
 void FillDec(int N){
   int count = 1;
@@ -40,15 +32,7 @@ void FillDec(int N){
   {
     A[i]=i;
     printf("%d ",A[i]);
-	/*if(A[i] < A[i+1])
-    {   
-    	count = count + 1;
-    }*/
   } 
-    /*printf("\n");
-    printf("Count ");
-    printf("%d ", count);
- 	*/
 }
 void FillRand(int N){
      printf("Arr rand: ");
