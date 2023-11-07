@@ -1,0 +1,284 @@
+body{
+	background: #B0E0E6;
+}
+
+@keyframes key{
+	0%{
+		color: #fff;
+ 		text-shadow:
+	   		0px 0 2px #CF3BB7,
+	    	0px 0 4px #CF3BB7,
+	    	0px 0 6px #fff;
+
+	}
+	100%{
+		color: #fff;
+ 		text-shadow:
+	    	0px 0 2px #008000,
+	    	0px 0 4px #008000,
+	    	0px 0 6px #fff;
+	}
+}
+.aa{
+ 	color: #fff;
+ 	text-shadow:
+	    0px 0 2px #CF3BB7,
+	    0px 0 4px #CF3BB7,
+	    0px 0 6px #fff;
+	font-size: 20pt;
+	font-family: Courier New;
+	color: black;
+	position: relative;
+	top: -50px;
+	left: 100px;
+	z-index: 8;
+	text-decoration: none;
+	animation-name: key;
+	animation-duration: 2s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate-reverse;
+	animation-delay: 0s;
+}
+.aa a{
+	color: #B0E0E6;
+	text-decoration: none;
+	margin: 0px 0px 0px 20px;
+}
+.adres{
+	position: relative;
+	top: 150px;
+	left: 1.5%;
+	font-family: Courier New;
+	color: white; 
+	font-size: 20pt;
+}
+.block{
+	max-width: 800px;
+	top: 600px;
+	font-family: Courier New;
+	text-align: justify; 
+	font-size: 20pt;
+	position: absolute;
+	color: block;
+	left: 3%;
+	
+}
+.cc {
+	max-width: 1250px;
+	top: 500px;
+	font-family: Courier New;
+	text-align: justify;
+	align-content: center;
+	font-size: 15pt;
+	position: absolute;
+	color: black;
+	left: 50px;
+	z-index: 30;
+}
+.p {color: white;}
+.gg {
+	top: 0px;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	background: #B0E0E6;
+	z-index: 145;
+}
+.head{
+	left: 50px;
+	top: 90px;
+	position: absolute;
+	width: 40%;
+	align-content: center;
+	z-index: 1;
+}
+.logarifm{
+	width: 110px;
+	position: relative;
+	top: 10px;
+	left: 5px;
+	border-radius: 00%;
+}
+.imgmain1{
+	position: relative;
+	left: 500px;
+	top: 430px;
+	width: 500px;
+
+}
+.imgmain2{
+	position: relative;
+	left: 900px;
+	top: 400px;
+	width: 300px;
+}
+.zagolovok{ 
+	width: 96%;
+	position: absolute;
+	top: 55px;
+	left: 2%;
+	font-size: 35pt;
+	color: white;
+	align-content: center; 
+	font-family: Courier New;
+}
+/*Персонажи*/
+.Korra_p{
+	position: relative;
+	left: 10px;
+	top: 150px;
+	height: 450px;
+	border-radius: 3%;
+}
+.Korra{
+	max-width: 290px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 15px;
+	top: 160px;
+	font-family: Courier New;
+	font-size: 15pt;
+}
+.Mako_p{
+	position: relative;
+	left: 35px;
+	top: 150px;
+	height: 450px;
+	border-radius: 3%;
+}
+.Mako{
+	max-width: 320px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 340px;
+	top: -46px;
+	font-family: Courier New;
+	font-size: 15pt;
+}
+.Bolin_p{
+	position: relative;
+	left: 50px;
+	top: 150px;
+	height: 450px;
+	border-radius: 3%;
+}
+.Bolin{
+	max-width: 340px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 680px;
+	top: -430px;
+	font-family: Courier New;
+	font-size: 15pt;
+}
+.Asami_p{
+	position: relative;
+	left: 75px;
+	top: 150px;
+	height: 450px;
+	border-radius: 3%;
+}
+.Asami{
+	max-width: 340px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 1080px;
+	top: -659px;
+	font-family: Courier New;
+	font-size: 15pt;
+}
+/*Книги*/
+.Book1{
+	max-width: 300px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 0px;
+	top: 150px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
+.Book2{
+	max-width: 299px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: -302px;
+	top: 580px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
+
+.Book3{
+	max-width: 299px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: -610px;
+	top: 910px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
+.Book4{
+	max-width: 299px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: -910px;
+	top: 1330px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
+.Book1_b{
+	max-width: 1000px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 350px;
+	top: -100px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
+.Book2_b{
+	max-width: 1000px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 350px;
+	top: 120px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
+.Book3_b{
+ 	max-width: 1000px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 350px;
+	top: 320px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
+
+.Book4_b{
+ 	max-width: 1000px;
+	color: black;
+	position: relative;
+	text-align: justify;
+	left: 350px;
+	top: 550px;
+	font-family: Courier New;
+	font-size: 15pt;
+	border-radius: 3%;
+}
