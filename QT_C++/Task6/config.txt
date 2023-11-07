@@ -1,0 +1,9 @@
+ФИО: Korra
+Должность: Avatar
+Дата рождения: 01.01.2000
+Email: Korra@mail.ru
+Фирма: OOO"Avatar"
+Должность: Avatar
+Пол: Мужской
+
+в C:/Users/dim/Downloads/NICKELODEON_THELEGENDOFKORRA_219_211835_1920x1080.jpg

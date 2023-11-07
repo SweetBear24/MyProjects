@@ -1,0 +1,18 @@
+QLabel{
+ border: 2px solid #1E90FF;
+ border-radius: 10px;
+ background-color: white;
+ color: black;
+}
+QLineEdit{
+ border: 2px solid #00FA9A;
+ border-radius: 10px;
+ background-color: white;
+ color: red;
+}
+QPushButton{
+ border: 2px solid #1E90FF;
+ border-radius: 10px;
+ background-color: white;
+ color: black;
+}
